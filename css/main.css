@@ -1,6 +1,5 @@
 html {
   background-color: #e2e2e2;
-
   font-family: sans-serif;
 }
 
@@ -12,6 +11,7 @@ html {
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   position: relative;
+  transition: all linear 500ms;
 }
 
 .polaroid > img {
@@ -29,6 +29,7 @@ html {
 }
 
 .polaroid:hover {
+  transform: rotate(0);
   z-index: 4;
 }
 
