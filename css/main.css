@@ -27,3 +27,31 @@ html {
   left: 5em;
   right: 5em;
 }
+
+.polaroid:hover {
+  z-index: 4;
+}
+
+figure:first-child {
+  position: absolute;
+  transform: rotate(-15deg);
+  top: 7em;
+  left: 9em;
+  z-index: 1;
+}
+
+figure:nth-child(2) {
+  position: absolute;
+  transform: rotate(5deg);
+  top: 10em;
+  left: 15em;
+  z-index: 3;
+}
+
+figure:last-child {
+  position: absolute;
+  transform: rotate(30deg);
+  top: 7em;
+  left: 21em;
+  z-index: 2;
+}
